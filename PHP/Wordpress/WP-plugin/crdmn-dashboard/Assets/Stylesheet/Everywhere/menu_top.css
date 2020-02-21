@@ -1,0 +1,29 @@
+#wpadminbar li .ab-item {
+	cursor:  pointer;
+	}
+
+#wpadminbar .fa {
+	font-family:  FontAwesome !important;
+	font-size: 13px;
+	}
+	/* Profile link. */
+	#wp-admin-bar-user-actions {
+		display: none !important;
+		}
+		#wp-admin-bar-user-actions img {
+			display: none !important;
+			}
+	#wp-admin-bar-my-account {
+		float: left !important;
+		}
+		#wpadminbar .fa:after {
+			content: '\a0';
+			}
+
+	/* Logout link.  */
+	#wpadminbar .fa.fa-sign-out:before {
+		margin-left: .2em;
+		}
+	#wpadminbar .fa.fa-sign-out:after {
+		content: '';
+		}

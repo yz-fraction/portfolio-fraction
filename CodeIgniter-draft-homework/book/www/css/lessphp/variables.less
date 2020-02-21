@@ -1,0 +1,165 @@
+// Variables.less
+// Variables to customize the look and feel of Bootstrap
+// Swatch: Cerulean
+// Version: 2.0.4
+// -----------------------------------------------------
+
+// GLOBAL VALUES
+// --------------------------------------------------
+
+
+// Grays
+// -------------------------
+@black:                 #000;
+@grayDarker:            #222;
+@grayDark:              #333;
+@gray:                  #555;
+@grayLight:             #999;
+@grayLighter:           #F5F5F5;
+@white:                 #fff;
+
+
+// Accent colors
+// -------------------------
+@blue:                  #3E78B3;
+@blueDark:              #033C73;
+@green:                 #73A839;
+@red:                   #C71C22;
+@yellow:                #F7B42C;
+@orange:                #DD5600;
+@pink:                  #F49AC1;
+@purple:                #9760B3;
+
+
+// Scaffolding
+// -------------------------
+@bodyBackground:        #7f7f7f;
+@textColor:             #222;
+
+
+// Responsive
+// -------------------------
+@minPhone:              0px;
+@maxPhone:              480px;
+@minTablet:             481px;
+@maxTablet:             767px;
+@minDesctop:            768px;
+
+
+// Links
+// -------------------------
+@linkColor:             @textColor;/*#369BD7*/
+@linkColorHover:        darken(@linkColor, 15%);
+
+
+// Navbar
+// -------------------------
+@navbarHeight:                    40px;
+@navbarBackground:                @grayDarker;
+@navbarBackgroundHighlight:       @grayDark;
+
+@navbarText:                      @grayLight;
+@navbarLinkColor:                 @grayLight;
+@navbarLinkColorHover:            @white;
+@navbarLinkColorActive:           @navbarLinkColorHover;
+@navbarLinkBackgroundHover:       transparent;
+@navbarLinkBackgroundActive:      @navbarBackground;
+
+@navbarSearchBackground:          lighten(@navbarBackground, 25%);
+@navbarSearchBackgroundFocus:     @white;
+@navbarSearchBorder:              darken(@navbarSearchBackground, 30%);
+@navbarSearchPlaceholderColor:    #ccc;
+@navbarBrandColor:                @navbarLinkColor;
+
+
+// Buttons
+// -------------------------
+@btnBackground:                     @white;
+@btnBackgroundHighlight:            darken(@white, 10%);
+@btnBorder:                         #bbb;
+
+@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+
+@btnInfoBackground:                 #5bc0de;
+@btnInfoBackgroundHighlight:        #2f96b4;
+
+@btnSuccessBackground:              #62c462;
+@btnSuccessBackgroundHighlight:     #51a351;
+
+@btnWarningBackground:              lighten(@orange, 15%);
+@btnWarningBackgroundHighlight:     @orange;
+
+@btnDangerBackground:               #ee5f5b;
+@btnDangerBackgroundHighlight:      #bd362f;
+
+@btnInverseBackground:              #444;
+@btnInverseBackgroundHighlight:     @grayDarker;
+
+
+// Dropdowns
+// -------------------------
+@dropdownBackground:            @white;
+@dropdownBorder:                rgba(0,0,0,.2);
+@dropdownDividerTop:            #e5e5e5;
+@dropdownDividerBottom:         @white;
+
+@dropdownLinkColor:             @grayLight;
+
+@dropdownLinkColorHover:        @white;
+@dropdownLinkBackgroundHover:   @linkColorHover;
+
+@dropdownLinkColorActive:       @dropdownLinkColor;/*@dropdownLinkColor*/
+@dropdownLinkBackgroundActive:  @grayLight;
+
+
+//Accordion
+// -------------------------
+@accordionBorderRadius:             .3em;
+@accordionFontSize:                1.4em;
+@accordionrubrLineHeight:          2.571em;
+@accordionsubrubrLineHeight:       2.5em;
+
+
+//Rubric result
+// -------------------------
+
+
+//Film
+// -------------------------
+@filmH2FontColor:                     Dimgray;
+
+
+//Tabs
+// -------------------------
+@tabsBorderRadius:                    .3em;
+@tabsBackground:                      @grayLight;
+@tabsCurrentBackground:               lighten(@grayLight, 25%);
+@tabsMarginLeft:                      1.2em;
+@tabsBackgroundGradient1:             @grayLight;
+@tabsBackgroundGradient2:             lighten(@grayLight, 10%);
+
+
+
+
+// Typography
+// -------------------------
+@sansFontFamily:        Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+
+@h1FontSize:            1.286em;
+@h2FontSize:            1.143em;
+@baseFontSize:          1.4em;
+@secondaryFontSize:      .857em;
+@baseFontFamily:        @sansFontFamily;
+@baseLineHeight:        1.8em;
+@baseLineHeight_px:     18px;
+
+@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsColor:         inherit; // empty to use BS default, @textColor
+
+
+@popularMarginBottom:   1.3em;
+

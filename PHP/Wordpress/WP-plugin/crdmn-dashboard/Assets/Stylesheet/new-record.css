@@ -1,0 +1,57 @@
+#postbox-container-2 .hndle {
+	color: #111;
+	background-color: #D8D8D8;
+	} .js #postbox-container-2 .hndle:hover {
+		background-color: #C8C8C8;
+		}
+#slugdiv .hndle,
+.js #slugdiv .hndle:hover,
+#authordiv .hndle,
+.js #authordiv .hndle:hover {
+	color: #C8C8C8;
+	background-color: #23282d;
+	}
+
+.cmb-th {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Schema type. */
+#side-sortables .cmb2-wrap>.cmb-field-list>.cmb-row {
+	padding: 0 !important;
+	}
+	#cmb2-metabox-crdmn_schematype .cmb2-metabox-description {
+		padding-bottom: 0 !important;
+		}
+		
+		
+/* Row styling. */
+.no-border_bottom {
+	border-bottom: none !important;
+	}
+.no-padding_top {
+	padding-top: 0 !important;
+	}
+.no-padding_bottom {
+	padding-bottom: 0 !important;
+	}
+.fullwidth input[type=text],
+.fullwidth input[type=tel],
+.fullwidth input[type=time],
+.fullwidth input[type=url],
+.fullwidth input[type=date],
+.fullwidth input[type=datetime],
+.fullwidth input[type=datetime-local], 
+.fullwidth input[type=email],
+.fullwidth input[type=number],
+.fullwidth textarea {
+	width: 100% !important;
+	}
+	
+	
+.cmb2-wrap input[value=""],
+.cmb2-wrap input[value=""] + label,
+.cmb2-wrap input[value="uncategorised"],
+.cmb2-wrap input[value="uncategorised"] + label {
+	display: none !important;
+	}

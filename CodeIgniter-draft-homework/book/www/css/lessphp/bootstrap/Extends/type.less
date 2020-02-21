@@ -1,0 +1,84 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+// Body text
+// -------------------------
+
+p {
+	/*margin: 0 0 1.4em;*/
+}
+
+
+
+// Emphasis & misc
+// -------------------------
+
+small {
+	font-size: 85%; // Ex: 14px base font * 85% = about 12px
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+cite {
+	font-style: normal;
+}
+
+
+/**
+ *	Headings
+ *	-------------------------
+ */
+hgroup{
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: @headingsColor;
+	
+	font-family: @headingsFontFamily;
+	font-weight: @headingsFontWeight;
+	
+	line-height: inherit;
+	text-rendering: optimizelegibility; /* Fix the character spacing for headings */
+	
+	/*margin: @baseLineHeight 0;*/
+	
+	small {
+		font-weight: normal;
+		line-height: 1;
+		color: @grayLight;
+	}
+}
+
+.h1_inline{
+	display: inline;
+    font-weight: inherit;
+}
+
+.h1_article{
+	font-size: 2.286em;
+	font-weight: inherit;
+	
+	margin-bottom: 0.2em;
+	margin-top: 0.4em;
+	
+	text-align: center;
+}
+.h2_article{
+	color: lighten(@textColor, 5%);
+	
+	margin-bottom: 1.3em;
+	
+	text-align: center;
+}
+
+.justify{
+	text-align: justify;
+	.hyphens();
+	word-spacing: -0.3ex;
+	}

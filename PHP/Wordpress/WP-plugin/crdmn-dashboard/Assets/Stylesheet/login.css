@@ -1,0 +1,123 @@
+body {
+	
+	}
+	#pagebackground {
+		/* Set rules to fill background */
+		min-height: 100%;
+		min-width: 1024px;
+
+		/* Set up proportionate scaling */
+		width: 100%;
+		height: auto;
+
+		/* Set up positioning */
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -9999;
+		}
+
+	#login {
+		
+		}
+	#login h1 {
+		margin-bottom: 0;
+		}
+		h1 a {
+			background-image: none !important;
+
+			margin-bottom: 0 !important;
+			padding-right: .3em;
+			}
+		#loginform {
+			
+			background-color: rgb(66, 66, 66);
+			background-color: rgba(66, 66, 66, .5);
+
+			padding-bottom: 2em !important;
+			}
+			
+			#loginform label {
+				cursor: default;
+				color: WhiteSmoke;
+				font-family: Helvetica, sans-serif;
+				}	#loginform label:hover {
+				color: White;	
+				}
+			#loginform .forgetmenot {
+				padding-bottom: 1em !important;
+				}
+			#loginform > .submit {
+				
+				}
+				#wp-submit {
+					width: 100%;
+					}
+				#wp-submit {
+					cursor: default;
+					
+/*					display: inline-block;
+					
+					-webkit-box-sizing: content-box;
+					-moz-box-sizing: content-box;
+					box-sizing: content-box;*/
+					
+					/*margin: 0.5em;*/
+					padding: 0 1.5em;
+					
+					border: 1px solid rgba(211,211,211,1);
+					
+					-webkit-border-radius: 0.2em;
+					border-radius: 0.2em;
+					
+					/*font: normal normal bold 1em/2em Arial, Helvetica, sans-serif;*/
+					color: rgba(114,114,114,1);
+					background: rgba(234,234,234,1);
+					
+					-o-text-overflow: clip;
+					text-overflow: clip;
+					
+					white-space: nowrap;
+					
+					-webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,0.8) , 0 1px 0 0 rgba(0,0,0,0.298039) ;
+					box-shadow: 0 0 1px 1px rgba(255,255,255,0.8) , 0 1px 0 0 rgba(0,0,0,0.298039) ;
+					
+					text-shadow: 0 1px 0 rgba(255,255,255,0.8) ;
+					
+					-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+					-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+					-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+					transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+				  }
+				  #wp-submit:hover {
+					cursor: default;
+					border: 1px solid rgba(178,178,178,1);
+					color: rgba(76,76,76,1);
+					-webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,0.8) inset, 0 1px 0 0 rgba(0,0,0,0.298039) ;
+					box-shadow: 0 0 1px 1px rgba(255,255,255,0.8) inset, 0 1px 0 0 rgba(0,0,0,0.298039) ;
+				  }
+				  #wp-submit:active {
+					position: relative;
+					cursor: default;
+					top: 1px;
+					border: 1px solid rgba(211,211,211,1);
+					color: rgba(114,114,114,1);
+					background: rgba(247,247,247,1);
+					-webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,0.8) inset, 0 1px 0 0 rgba(0,0,0,0.298039) inset;
+					box-shadow: 0 0 1px 1px rgba(255,255,255,0.8) inset, 0 1px 0 0 rgba(0,0,0,0.298039) inset;
+					-webkit-transition: none;
+					-moz-transition: none;
+					-o-transition: none;
+					transition: none;
+				  }
+		#backtoblog, 
+		#nav {
+			background-color: rgb(66, 66, 66);
+			background-color: rgba(66, 66, 66, .9);
+			margin: 0 !important;
+			padding-bottom: .5em;
+			}
+			#backtoblog a, 
+			#nav a {
+				color: WhiteSmoke !important;
+				}

@@ -1,0 +1,23 @@
+#footer { clear:both; }
+#welcome { font-size:1.4em; }
+.last_films, .welcome_catalogTags, .create_form { margin:0 auto; }
+.welcome_h1 {
+  text-align:center;
+  font-size:1.286em;
+  margin-bottom:1em;
+}
+.welcome_catalogTags {
+  text-align:center;
+  margin-bottom:1.3em;
+}
+.catalogTags {
+  display:inline;
+  font-weight:inherit;
+}
+.last_films {
+  max-width:30em;
+  margin-bottom:1.3em;
+}
+.td_timestamp { padding-right:1em; }
+.td_film { margin:0; }
+.dropdown-menu { font-size:1.2em; }
